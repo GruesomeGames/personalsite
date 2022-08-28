@@ -1,0 +1,572 @@
+
+body {
+  background-color: #a1adff;
+  text-align: center;
+  margin: 0;
+  height: 200px;
+  font-family: serif;
+}
+
+div{
+  margin: 0;
+  border: 0;
+}
+
+hr {
+
+  border-style: none;
+  border-top-style:ridge;
+  border-width: 9px ;
+  border-color: #f7f17d;
+  width: 33%;
+}
+
+
+
+.middle-container
+{
+  width: 100%;
+  height: 320px;
+
+}
+
+.bottom-container
+{
+  width: 60%;
+  height: 0;
+  margin:auto;
+}
+
+.swlinme1
+{
+  position: relative;
+  right: 400px;
+  top: -19px;
+}
+
+.swlinme2
+{
+  position: relative;
+  left: 400px;
+  top: -19px;
+  transform: scaleX(-1);
+}
+
+.doorwar1
+{
+  position: relative;
+  top: -365px;
+}
+
+.dantetext
+{
+  position: relative;
+  top: -384px;
+}
+
+.tubetext
+{
+  position: relative;
+  top: -20px;
+}
+
+.the
+{
+   text-decoration: underline;
+}
+
+.groundfull-container{
+  display: block;
+  position: relative;
+  max-height: 600px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+  top: -75px;
+  z-index: -1;
+}
+
+.groundfull
+{
+ position: relative;
+}
+
+.munchyclouds
+{
+  width: 100%;
+  height: 500px;
+  position: relative;
+  top: -3000px;
+  overflow: hidden;
+}
+
+.munchycloud1
+{
+position: relative;
+left: -145px;
+}
+.munchycloud2
+{
+  position:relative;
+  transform: scaleX(-1);
+  right: -145px;
+}
+
+.p1
+{
+  padding-top: 100px;
+}
+
+.dungeon_walls
+{
+  display: block;
+  position: relative;
+  max-height: 2600px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+}
+
+.doorwar_inside
+{
+  position: relative;
+  width: 100%;
+  height: 320px;
+  bottom: 2834px;
+
+}
+.doorwar2
+{
+  position: relative;
+
+}
+
+.staffbangers
+{
+  position: absolute;
+  width: 100%;
+  top: 40px;
+  height: 320px;
+}
+
+.staffbanger1
+{
+  position: relative;
+  right: 375px;
+  top: 300px;
+}
+
+.staffbanger2
+{
+  position: relative;
+  left: 375px;
+  top: 300px;
+  transform: scaleX(-1);
+}
+.portaltext
+{
+  position: relative;
+  bottom: 2740px;
+
+}
+.portaltextclass
+{
+    font-family: Garamond, serif;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    margin-left: 289px;
+    margin-right: 289px;
+    font-size: 2rem;
+}
+.magicmirror1container
+{
+  position: relative;
+  text-align: center;
+}
+
+.spinring{
+  position: relative;
+  bottom: 3983px;
+}
+
+.magicmirrors
+{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 681px;
+  top: -1800px;
+  overflow: hidden;
+}
+.magicmirrordiv1
+{
+  display: inline-block;
+  position: absolute;
+  left: 80px;
+  border-radius: 25px;
+}
+
+.magicmirrordiv2
+{
+  display: inline-block;
+  position: relative;
+
+}
+.magicmirrordiv3
+{
+  display: inline-block;
+  position: absolute;
+    right: 80px;
+}
+
+
+.portaltext
+{
+  position: relative;
+  text-align: center;
+  font-family: Garamond, serif;
+  font-weight: bold;
+  font-size: 2rem;
+  top: 50%;
+  bottom: 50%;
+  transform: translateY(-900%);
+  pointer-events: none;
+}
+
+.slimecrawler
+{
+  position: relative;
+  width: 100%;
+  height: 320px;
+  top: -3243px;
+  pointer-events: none;
+
+}
+
+.crawler
+{
+  position: relative;
+  animation: crawlerCrawl 48s infinite linear;
+
+}
+
+@keyframes crawlerCrawl {
+  0% {
+    left: -44%;
+  }
+  50%{
+    left: 45%;
+    transform: scaleX(1);
+  }
+
+  51%{
+    transform: scaleX(-1);
+  }
+  100% {
+    left: -44%;
+    transform: scaleX(-1);
+  }
+}
+
+.theLibrary{
+  display: block;
+  position: relative;
+  max-height: 2600px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+}
+
+.libraryimg{
+  position: relative;
+right: 658px;
+}
+
+.libraryclimberdiv{
+  display: block;
+  position: relative;
+  max-height: 2600px;
+
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+}
+
+.libraryclimber{
+  position: relative;
+  right: 658px;
+  bottom: 3204px;
+}
+
+.libraryslimediv{
+  display: block;
+  position: relative;
+  max-height: 2600px;
+
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+}
+
+.libraryslime{
+  position: relative;
+  right: 658px;
+  bottom: 5804px;
+}
+
+.doorwarlibrarydiv{
+  display: block;
+  position: absolute;
+  max-height: 2600px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+  top: 70px;
+}
+
+.doorwarlibrary{
+  position: relative;
+  top: 300px;
+}
+
+.slimecasediv{
+  display: block;
+  position: absolute;
+  max-height: 2600px;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+}
+
+.slimecase{
+  position: relative;
+  right: 659px;
+}
+
+
+
+.theMailroom{
+  display: block;
+  position: relative;
+  max-height: 2600px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+}
+
+.Mailroomimg{
+  position: relative;
+right: 658px;
+}
+
+.doorwarmailroomdiv{
+  display: block;
+  position: absolute;
+  max-height: 2600px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+  top: 49px;
+}
+
+.doorwarmailroom{
+  position: relative;
+  top: 1283px;
+  right: 0;
+}
+
+.mailslimediv{
+  display: block;
+  position: absolute;
+  max-height: 2600px;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+}
+
+.mailslime{
+  position: relative;
+  right: 658px;
+}
+
+.mailroomletterdiv{
+  display: block;
+  position: absolute;
+  max-height: 2600px;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+}
+
+.mailroomletter{
+  position: relative;
+  right: 658px;
+}
+
+.blatdiv{
+  display: block;
+  position: absolute;
+  max-height: 2600px;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+}
+
+.blat{
+  position: relative;
+  right: 658px;
+}
+
+.blat_early{
+  position: relative;
+  right: 658px;
+  bottom: 3200px;
+}
+
+.mailswinmlediv{
+  display: block;
+  position: absolute;
+  max-height: 2600px;
+  top: 1010px;
+  right: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+}
+
+.mailswlinme{
+  position: absolute;
+  top: 0;
+  left: -240px;
+}
+
+.maillink
+{
+  position: relative;
+}
+
+.theArena{
+  display: block;
+  position: relative;
+  max-height: 2600px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+}
+
+.Arenaimg{
+  position: relative;
+right: 658px;
+}
+
+.fighterdiv{
+  display: block;
+  position: absolute;
+  max-height: 2600px;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+}
+
+.fighter{
+  position: relative;
+  right: 28%;
+  top: 810px;
+}
+
+.enemydiv{
+  display: block;
+  position: absolute;
+  max-height: 2600px;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+}
+
+.enemy{
+  position: relative;
+  left: 28%;
+  top: 820px;
+  transform: scaleX(-1);
+}
+.doorwararenadiv{
+  display: block;
+  position: absolute;
+  max-height: 2600px;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+}
+
+.doorwararena{
+  position: relative;
+  width: auto;
+  top: 2070px;
+}
+
+
+
+
+
+
+
+
+.cattest1
+{
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+
+}
+.testcat
+{
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.cattestpfpsize
+{
+  position: relative;
+  max-width: 320px;
+  max-height: 320px;
+  left: 1280px;
+  bottom: 324px;
+}
